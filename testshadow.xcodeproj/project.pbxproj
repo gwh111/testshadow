@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1251E20E638CCE12A8D2BB77 /* libPods-testshadow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD82FF6A4B8A62F99E4F0E6 /* libPods-testshadow.a */; };
+		D80AE0AB20D236E200439201 /* record.plist in Resources */ = {isa = PBXBuildFile; fileRef = D80AE0AA20D236E200439201 /* record.plist */; };
+		D80AE0AE20D25E0100439201 /* AppShare.m in Sources */ = {isa = PBXBuildFile; fileRef = D80AE0AD20D25E0100439201 /* AppShare.m */; };
+		D80AE0B120D26C3500439201 /* BBRequestRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D80AE0AF20D26C3500439201 /* BBRequestRecordTool.m */; };
 		D830059620CE5BE000B982B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D830059520CE5BE000B982B6 /* AppDelegate.m */; };
 		D830059920CE5BE000B982B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D830059820CE5BE000B982B6 /* ViewController.m */; };
 		D830059C20CE5BE000B982B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D830059A20CE5BE000B982B6 /* Main.storyboard */; };
@@ -15,6 +19,7 @@
 		D83005A420CE5BE200B982B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D83005A320CE5BE200B982B6 /* main.m */; };
 		D83005AE20CE5BE200B982B6 /* testshadowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83005AD20CE5BE200B982B6 /* testshadowTests.m */; };
 		D83005B920CE5BE200B982B6 /* testshadowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83005B820CE5BE200B982B6 /* testshadowUITests.m */; };
+		D83005CA20D0172200B982B6 /* request.plist in Resources */ = {isa = PBXBuildFile; fileRef = D83005C920D0172200B982B6 /* request.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8AD82FF6A4B8A62F99E4F0E6 /* libPods-testshadow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testshadow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80AE0AA20D236E200439201 /* record.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = record.plist; sourceTree = "<group>"; };
+		D80AE0AC20D25E0100439201 /* AppShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppShare.h; sourceTree = "<group>"; };
+		D80AE0AD20D25E0100439201 /* AppShare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppShare.m; sourceTree = "<group>"; };
+		D80AE0AF20D26C3500439201 /* BBRequestRecordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBRequestRecordTool.m; sourceTree = "<group>"; };
+		D80AE0B020D26C3500439201 /* BBRequestRecordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBRequestRecordTool.h; sourceTree = "<group>"; };
 		D830059120CE5BE000B982B6 /* testshadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testshadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D830059420CE5BE000B982B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D830059520CE5BE000B982B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,9 @@
 		D83005B420CE5BE200B982B6 /* testshadowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testshadowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83005B820CE5BE200B982B6 /* testshadowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testshadowUITests.m; sourceTree = "<group>"; };
 		D83005BA20CE5BE200B982B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83005C920D0172200B982B6 /* request.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = request.plist; sourceTree = "<group>"; };
+		E393A8848AC5436172CEF356 /* Pods-testshadow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testshadow.release.xcconfig"; path = "Pods/Target Support Files/Pods-testshadow/Pods-testshadow.release.xcconfig"; sourceTree = "<group>"; };
+		F5E69833C07AD4983CD1FCD1 /* Pods-testshadow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testshadow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testshadow/Pods-testshadow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1251E20E638CCE12A8D2BB77 /* libPods-testshadow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		804CDD41C7EF4749BC242AA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5E69833C07AD4983CD1FCD1 /* Pods-testshadow.debug.xcconfig */,
+				E393A8848AC5436172CEF356 /* Pods-testshadow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8117A86DA45F938E8F9D52D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AD82FF6A4B8A62F99E4F0E6 /* libPods-testshadow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D830058820CE5BE000B982B6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +117,8 @@
 				D83005AC20CE5BE200B982B6 /* testshadowTests */,
 				D83005B720CE5BE200B982B6 /* testshadowUITests */,
 				D830059220CE5BE000B982B6 /* Products */,
+				804CDD41C7EF4749BC242AA7 /* Pods */,
+				8117A86DA45F938E8F9D52D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +137,14 @@
 			children = (
 				D830059420CE5BE000B982B6 /* AppDelegate.h */,
 				D830059520CE5BE000B982B6 /* AppDelegate.m */,
+				D80AE0B020D26C3500439201 /* BBRequestRecordTool.h */,
+				D80AE0AF20D26C3500439201 /* BBRequestRecordTool.m */,
 				D830059720CE5BE000B982B6 /* ViewController.h */,
 				D830059820CE5BE000B982B6 /* ViewController.m */,
+				D80AE0AC20D25E0100439201 /* AppShare.h */,
+				D80AE0AD20D25E0100439201 /* AppShare.m */,
+				D80AE0AA20D236E200439201 /* record.plist */,
+				D83005C920D0172200B982B6 /* request.plist */,
 				D830059A20CE5BE000B982B6 /* Main.storyboard */,
 				D830059D20CE5BE200B982B6 /* Assets.xcassets */,
 				D830059F20CE5BE200B982B6 /* LaunchScreen.storyboard */,
@@ -139,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D83005BD20CE5BE200B982B6 /* Build configuration list for PBXNativeTarget "testshadow" */;
 			buildPhases = (
+				94A19321EDF87A682C6FDBCB /* [CP] Check Pods Manifest.lock */,
 				D830058D20CE5BE000B982B6 /* Sources */,
 				D830058E20CE5BE000B982B6 /* Frameworks */,
 				D830058F20CE5BE000B982B6 /* Resources */,
@@ -235,9 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83005CA20D0172200B982B6 /* request.plist in Resources */,
 				D83005A120CE5BE200B982B6 /* LaunchScreen.storyboard in Resources */,
 				D830059E20CE5BE200B982B6 /* Assets.xcassets in Resources */,
 				D830059C20CE5BE000B982B6 /* Main.storyboard in Resources */,
+				D80AE0AB20D236E200439201 /* record.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +300,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		94A19321EDF87A682C6FDBCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testshadow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D830058D20CE5BE000B982B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80AE0B120D26C3500439201 /* BBRequestRecordTool.m in Sources */,
 				D830059920CE5BE000B982B6 /* ViewController.m in Sources */,
+				D80AE0AE20D25E0100439201 /* AppShare.m in Sources */,
 				D83005A420CE5BE200B982B6 /* main.m in Sources */,
 				D830059620CE5BE000B982B6 /* AppDelegate.m in Sources */,
 			);
@@ -431,10 +497,13 @@
 		};
 		D83005BE20CE5BE200B982B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E69833C07AD4983CD1FCD1 /* Pods-testshadow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFV6G6RA3V;
 				INFOPLIST_FILE = testshadow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +516,13 @@
 		};
 		D83005BF20CE5BE200B982B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E393A8848AC5436172CEF356 /* Pods-testshadow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFV6G6RA3V;
 				INFOPLIST_FILE = testshadow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

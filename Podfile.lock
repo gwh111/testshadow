@@ -1,0 +1,16 @@
+PODS:
+  - bench_ios (1.2.19)
+
+DEPENDENCIES:
+  - bench_ios
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - bench_ios
+
+SPEC CHECKSUMS:
+  bench_ios: b308f8b2985999be565bac758708f40030fbbb10
+
+PODFILE CHECKSUM: 34fcaea437f733e05fcc5be634562efed8d41d8e
+
+COCOAPODS: 1.5.0

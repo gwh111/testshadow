@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BOARD_SETTLE_QUERY_BY_ID</key>
+	<string>http://mapi1.93leju.net/service.json?sign=32b68e1b8e7a2e847abdcd8738d6c2bf&amp;signKey=USS93efafc1d15f4bd084edb3a8f13319ca&amp;timestamp=1527041308726&amp;boardId=4001284152018506210970012948&amp;loginKey=USL7ea222dac482449da0f381403d948d03&amp;service=BOARD_SETTLE_QUERY_BY_ID&amp;authedUserId=8201710118505806</string>
+	<key>ROOM_USER_SETTLE_QUERY_BY_ROOM</key>
+	<string>http://mapi1.93leju.net/service.json?timestamp=1527041308726&amp;roomId=4001414505686106010970019985&amp;loginKey=USL7ea222dac482449da0f381403d948d03&amp;service=ROOM_USER_SETTLE_QUERY_BY_ROOM&amp;authedUserId=8201710118505806</string>
+	<key>all</key>
+	<string>xxxsign=32b68e1b8e7a2e847abdcd8738d6c2bf&amp;signKey=USS93efafc1d15f4bd084edb3a8f13319ca&amp;timestamp=1527041308726&amp;boardId=4001284152018506210970012948&amp;loginKey=USL7ea222dac482449da0f381403d948d03&amp;service=BOARD_SETTLE_QUERY_BY_ID&amp;authedUserId=8201710118505806;xxxtimestamp=1527041308726&amp;roomId=4001414505686106010970019985&amp;loginKey=USL7ea222dac482449da0f381403d948d03&amp;service=ROOM_USER_SETTLE_QUERY_BY_ROOM&amp;authedUserId=8201710118505806</string>
+</dict>
+</plist>
